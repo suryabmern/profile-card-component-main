@@ -61,7 +61,7 @@ body{
 .card-divider{
     margin: 1.5rem 0rem 0rem;
     width: 100%;
-    border-top: 1px solid var(--Dark-gray);
+    border-top: 1px solid hsl(227, 10%, 46%.0.5);
 }
 .card-country{
     font-size: 0.8rem;
@@ -80,5 +80,11 @@ body{
 }
 .profile-img{
     border: radius 15px;;
+}
+/* media query */
+@media screen and (max-width:375px){
+ body{
+    background: no-repeat url(images/bg-pattern-top.svg) top -10rem left -10rem/100%, no-repeat url(images/bg-pattern-bottom.svg) bottom -10rem right -10rem/100% var(--Dark-cyan);
+    }   
 }
 
